@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: Safari Reading List module
+author: Ben Bahrenburg
+license: Apache 2
+copyright: Copyright (c) 2013 by Ben Bahrenburg (bencoding)
+
+
+# these should not be edited
+name: readinglist
+moduleid: bencoding.reading.list
+guid: f063cdb7-3b06-479b-b0c8-459178101750
+platform: iphone
+minsdk: 3.1.3.GA
