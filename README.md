@@ -2,7 +2,7 @@
 
 This module provides the ability to add items to the Safari Reading List.
 
-See the module in action in this [video](https://www.youtube.com/watch?v=MwCS8Vk_Lec).
+See the module in action in this [video](https://www.youtube.com/watch?v=TAubHBecPXs).
 
 
 <h2>Before you start</h2>
