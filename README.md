@@ -1,6 +1,9 @@
 <h1>Ti.Safari.ReadingList</h1>
 
-This module provides the ability to add items to the Safari Reading List
+This module provides the ability to add items to the Safari Reading List.
+
+See the module in action in this [video](https://www.youtube.com/watch?v=MwCS8Vk_Lec).
+
 
 <h2>Before you start</h2>
 * This is an iOS module only
