@@ -52,11 +52,19 @@ win.add(btnAdd);
 
 btnAdd.addEventListener('click',function(d){
 
-	var result = readinglist.add({
-		url:txtUrl.value,
-		title:txtTitle.value,
-		previewText:txtPreview.value
-	});
+	//Create the base reading list item
+	var item = {
+		url:txtUrl.value, title:txtTitle.value		
+	};
+	
+	//Since the Preview text is optional, add it if provided 
+	if(txtPreview.value.length > 0){
+		item.previewText = txtPreview.value;
+	}
+	
+	//Add the item to the reading list
+	var result = readinglist.add(item);
+	//Print the output
 	Ti.API.info(JSON.stringify(result));
 	
 	if(result.success){

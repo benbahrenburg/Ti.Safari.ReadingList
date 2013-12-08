@@ -108,7 +108,7 @@ static inline BOOL isEmpty(id thing) {
     
     NSString *url = stringTrim([TiUtils stringValue:@"url" properties:args]);
     NSString *title = stringTrim([TiUtils stringValue:@"title" properties:args]);
-    NSString *preview = stringTrim([TiUtils stringValue:@"previewText" properties:args def:title]);
+    NSString *preview = stringTrim([TiUtils stringValue:@"previewText" properties:args]);
     
     if(isEmpty(url)){
 		NSLog(@"[ERROR] URL is empty");
@@ -126,10 +126,6 @@ static inline BOOL isEmpty(id thing) {
                                      @"Title is required, empty string provided",@"message",
                                      nil];
         return errMsg;
-    }
-    //If preview is empty, use the title
-    if(isEmpty(preview)){
-        preview = title;
     }
     
     SSReadingList * readList = [SSReadingList defaultReadingList];
